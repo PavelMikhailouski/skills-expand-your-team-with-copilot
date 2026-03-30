@@ -190,6 +190,61 @@ section h3 {
   justify-content: center;
 }
 
+/* Social Share Section */
+.share-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  margin-top: 6px;
+  border-top: 1px solid var(--border-light);
+}
+
+.share-label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.share-button:hover {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+.share-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+}
+
+.share-twitter {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.share-copy {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.share-copy.copied {
+  background-color: var(--success);
+}
+
 /* Activity Tag */
 .activity-tag {
   position: absolute;
